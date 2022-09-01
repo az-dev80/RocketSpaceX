@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E05A4B422722A0B1001E1061 /* LaunchesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05A4B412722A0B1001E1061 /* LaunchesCell.swift */; };
+		E05A4B4427233BE7001E1061 /* LaunchesDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05A4B4327233BE7001E1061 /* LaunchesDetailCell.swift */; };
+		E05A4B4627233C04001E1061 /* LaunchesDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05A4B4527233C04001E1061 /* LaunchesDetailVC.swift */; };
+		E05A4B482723FB2C001E1061 /* WebViewLaunchesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05A4B472723FB2C001E1061 /* WebViewLaunchesVC.swift */; };
+		E0AFBCB426EF4A79005E5785 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AFBCB326EF4A79005E5785 /* AppDelegate.swift */; };
+		E0AFBCB626EF4A79005E5785 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AFBCB526EF4A79005E5785 /* SceneDelegate.swift */; };
+		E0AFBCBD26EF4A7B005E5785 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0AFBCBC26EF4A7B005E5785 /* Assets.xcassets */; };
+		E0AFBCC026EF4A7B005E5785 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0AFBCBE26EF4A7B005E5785 /* LaunchScreen.storyboard */; };
+		E0AFBCCB26EF4A7B005E5785 /* rs_ios_stage_task11Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AFBCCA26EF4A7B005E5785 /* rs_ios_stage_task11Tests.swift */; };
+		E0AFBCD626EF4A7B005E5785 /* rs_ios_stage_task11UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AFBCD526EF4A7B005E5785 /* rs_ios_stage_task11UITests.swift */; };
+		E0AFBCE426EF5750005E5785 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AFBCE326EF5750005E5785 /* TabBarViewController.swift */; };
+		E0AFBCE726EF5BC3005E5785 /* RocketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AFBCE526EF5BC3005E5785 /* RocketsViewController.swift */; };
+		E0AFBCE826EF5BC3005E5785 /* RocketsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0AFBCE626EF5BC3005E5785 /* RocketsViewController.xib */; };
+		E0AFBCEB26EF5C34005E5785 /* LaunchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AFBCE926EF5C34005E5785 /* LaunchesViewController.swift */; };
+		E0AFBCEC26EF5C34005E5785 /* LaunchesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0AFBCEA26EF5C34005E5785 /* LaunchesViewController.xib */; };
+		E0AFBCEF26EF5C55005E5785 /* LaunchpadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AFBCED26EF5C55005E5785 /* LaunchpadsViewController.swift */; };
+		E0AFBCF026EF5C55005E5785 /* LaunchpadsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0AFBCEE26EF5C55005E5785 /* LaunchpadsViewController.xib */; };
+		E0AFBCF226EF5D7E005E5785 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AFBCF126EF5D7E005E5785 /* NavigationController.swift */; };
+		E0AFBCF426EF5FB7005E5785 /* NavigationControllerSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AFBCF326EF5FB7005E5785 /* NavigationControllerSecond.swift */; };
+		E0AFBCF826EF7112005E5785 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0AFBCF626EF7111005E5785 /* Roboto-Bold.ttf */; };
+		E0AFBCF926EF7112005E5785 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0AFBCF726EF7112005E5785 /* Roboto-Medium.ttf */; };
+		E0AFBD0026F09F30005E5785 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0AFBCFF26F09F30005E5785 /* Colors.xcassets */; };
+		E0AFBD0226F0B326005E5785 /* RocketsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AFBD0126F0B326005E5785 /* RocketsCell.swift */; };
+		E0AFBD0426F3A7F3005E5785 /* NavigationControllerThird.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AFBD0326F3A7F3005E5785 /* NavigationControllerThird.swift */; };
+		E0AFBD0626F4A402005E5785 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E0AFBD0526F4A402005E5785 /* SF-Pro-Display-Regular.otf */; };
+		E0AFBD0826F4A41B005E5785 /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E0AFBD0726F4A41B005E5785 /* SF-Pro-Display-Bold.otf */; };
+		E0AFBD0A26F8AE24005E5785 /* RocketDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AFBD0926F8AE24005E5785 /* RocketDetailsVC.swift */; };
+		E0AFBD0C26FA4D34005E5785 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AFBD0B26FA4D34005E5785 /* CollectionViewCell.swift */; };
+		E0AFBD0E26FA5A95005E5785 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AFBD0D26FA5A95005E5785 /* File.swift */; };
+		E0AFBD1026FA6433005E5785 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AFBD0F26FA6433005E5785 /* WebViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0AFBCC726EF4A7B005E5785 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0AFBCA826EF4A79005E5785 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0AFBCAF26EF4A79005E5785;
+			remoteInfo = "rs-ios-stage-task11";
+		};
+		E0AFBCD226EF4A7B005E5785 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0AFBCA826EF4A79005E5785 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0AFBCAF26EF4A79005E5785;
+			remoteInfo = "rs-ios-stage-task11";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E05A4B412722A0B1001E1061 /* LaunchesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchesCell.swift; sourceTree = "<group>"; };
+		E05A4B4327233BE7001E1061 /* LaunchesDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchesDetailCell.swift; sourceTree = "<group>"; };
+		E05A4B4527233C04001E1061 /* LaunchesDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchesDetailVC.swift; sourceTree = "<group>"; };
+		E05A4B472723FB2C001E1061 /* WebViewLaunchesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewLaunchesVC.swift; sourceTree = "<group>"; };
+		E0AFBCB026EF4A79005E5785 /* RocketSpaceX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RocketSpaceX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0AFBCB326EF4A79005E5785 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E0AFBCB526EF4A79005E5785 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E0AFBCBC26EF4A7B005E5785 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0AFBCBF26EF4A7B005E5785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E0AFBCC126EF4A7B005E5785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0AFBCC626EF4A7B005E5785 /* RocketSpaceXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RocketSpaceXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0AFBCCA26EF4A7B005E5785 /* rs_ios_stage_task11Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rs_ios_stage_task11Tests.swift; sourceTree = "<group>"; };
+		E0AFBCCC26EF4A7B005E5785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0AFBCD126EF4A7B005E5785 /* RocketSpaceXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RocketSpaceXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0AFBCD526EF4A7B005E5785 /* rs_ios_stage_task11UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rs_ios_stage_task11UITests.swift; sourceTree = "<group>"; };
+		E0AFBCD726EF4A7B005E5785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0AFBCE326EF5750005E5785 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		E0AFBCE526EF5BC3005E5785 /* RocketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketsViewController.swift; sourceTree = "<group>"; };
+		E0AFBCE626EF5BC3005E5785 /* RocketsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RocketsViewController.xib; sourceTree = "<group>"; };
+		E0AFBCE926EF5C34005E5785 /* LaunchesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchesViewController.swift; sourceTree = "<group>"; };
+		E0AFBCEA26EF5C34005E5785 /* LaunchesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchesViewController.xib; sourceTree = "<group>"; };
+		E0AFBCED26EF5C55005E5785 /* LaunchpadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchpadsViewController.swift; sourceTree = "<group>"; };
+		E0AFBCEE26EF5C55005E5785 /* LaunchpadsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchpadsViewController.xib; sourceTree = "<group>"; };
+		E0AFBCF126EF5D7E005E5785 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		E0AFBCF326EF5FB7005E5785 /* NavigationControllerSecond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControllerSecond.swift; sourceTree = "<group>"; };
+		E0AFBCF626EF7111005E5785 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		E0AFBCF726EF7112005E5785 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		E0AFBCFF26F09F30005E5785 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		E0AFBD0126F0B326005E5785 /* RocketsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketsCell.swift; sourceTree = "<group>"; };
+		E0AFBD0326F3A7F3005E5785 /* NavigationControllerThird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControllerThird.swift; sourceTree = "<group>"; };
+		E0AFBD0526F4A402005E5785 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		E0AFBD0726F4A41B005E5785 /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
+		E0AFBD0926F8AE24005E5785 /* RocketDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketDetailsVC.swift; sourceTree = "<group>"; };
+		E0AFBD0B26FA4D34005E5785 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		E0AFBD0D26FA5A95005E5785 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		E0AFBD0F26FA6433005E5785 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0AFBCAD26EF4A79005E5785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0AFBCC326EF4A7B005E5785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0AFBCCE26EF4A7B005E5785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0AFBCA726EF4A79005E5785 = {
+			isa = PBXGroup;
+			children = (
+				E0AFBCB226EF4A79005E5785 /* RocketSpaceX */,
+				E0AFBCC926EF4A7B005E5785 /* RocketSpaceXTests */,
+				E0AFBCD426EF4A7B005E5785 /* RocketSpaceXUITests */,
+				E0AFBCB126EF4A79005E5785 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0AFBCB126EF4A79005E5785 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0AFBCB026EF4A79005E5785 /* RocketSpaceX.app */,
+				E0AFBCC626EF4A7B005E5785 /* RocketSpaceXTests.xctest */,
+				E0AFBCD126EF4A7B005E5785 /* RocketSpaceXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0AFBCB226EF4A79005E5785 /* RocketSpaceX */ = {
+			isa = PBXGroup;
+			children = (
+				E0AFBCFE26F09DEC005E5785 /* Bars VC */,
+				E0AFBCFB26F09D82005E5785 /* Tab 1  */,
+				E0AFBCFC26F09DB8005E5785 /* Tab 2 */,
+				E0AFBCFD26F09DDE005E5785 /* Tab 3 */,
+				E0AFBCFA26F09CF9005E5785 /* Support */,
+				E0AFBCF526EF70CA005E5785 /* Fonts */,
+				E0AFBCBC26EF4A7B005E5785 /* Assets.xcassets */,
+				E0AFBCFF26F09F30005E5785 /* Colors.xcassets */,
+				E0AFBCC126EF4A7B005E5785 /* Info.plist */,
+			);
+			path = RocketSpaceX;
+			sourceTree = "<group>";
+		};
+		E0AFBCC926EF4A7B005E5785 /* RocketSpaceXTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0AFBCCA26EF4A7B005E5785 /* rs_ios_stage_task11Tests.swift */,
+				E0AFBCCC26EF4A7B005E5785 /* Info.plist */,
+			);
+			path = RocketSpaceXTests;
+			sourceTree = "<group>";
+		};
+		E0AFBCD426EF4A7B005E5785 /* RocketSpaceXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E0AFBCD526EF4A7B005E5785 /* rs_ios_stage_task11UITests.swift */,
+				E0AFBCD726EF4A7B005E5785 /* Info.plist */,
+			);
+			path = RocketSpaceXUITests;
+			sourceTree = "<group>";
+		};
+		E0AFBCF526EF70CA005E5785 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E0AFBCF626EF7111005E5785 /* Roboto-Bold.ttf */,
+				E0AFBCF726EF7112005E5785 /* Roboto-Medium.ttf */,
+				E0AFBD0526F4A402005E5785 /* SF-Pro-Display-Regular.otf */,
+				E0AFBD0726F4A41B005E5785 /* SF-Pro-Display-Bold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E0AFBCFA26F09CF9005E5785 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				E0AFBCB326EF4A79005E5785 /* AppDelegate.swift */,
+				E0AFBCB526EF4A79005E5785 /* SceneDelegate.swift */,
+				E0AFBCBE26EF4A7B005E5785 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		E0AFBCFB26F09D82005E5785 /* Tab 1  */ = {
+			isa = PBXGroup;
+			children = (
+				E0AFBCE526EF5BC3005E5785 /* RocketsViewController.swift */,
+				E0AFBCE626EF5BC3005E5785 /* RocketsViewController.xib */,
+				E0AFBD0126F0B326005E5785 /* RocketsCell.swift */,
+				E0AFBD0926F8AE24005E5785 /* RocketDetailsVC.swift */,
+				E0AFBD0B26FA4D34005E5785 /* CollectionViewCell.swift */,
+				E0AFBD0D26FA5A95005E5785 /* File.swift */,
+				E0AFBD0F26FA6433005E5785 /* WebViewController.swift */,
+			);
+			path = "Tab 1 ";
+			sourceTree = "<group>";
+		};
+		E0AFBCFC26F09DB8005E5785 /* Tab 2 */ = {
+			isa = PBXGroup;
+			children = (
+				E0AFBCE926EF5C34005E5785 /* LaunchesViewController.swift */,
+				E0AFBCEA26EF5C34005E5785 /* LaunchesViewController.xib */,
+				E05A4B412722A0B1001E1061 /* LaunchesCell.swift */,
+				E05A4B4527233C04001E1061 /* LaunchesDetailVC.swift */,
+				E05A4B4327233BE7001E1061 /* LaunchesDetailCell.swift */,
+				E05A4B472723FB2C001E1061 /* WebViewLaunchesVC.swift */,
+			);
+			path = "Tab 2";
+			sourceTree = "<group>";
+		};
+		E0AFBCFD26F09DDE005E5785 /* Tab 3 */ = {
+			isa = PBXGroup;
+			children = (
+				E0AFBCEE26EF5C55005E5785 /* LaunchpadsViewController.xib */,
+				E0AFBCED26EF5C55005E5785 /* LaunchpadsViewController.swift */,
+			);
+			path = "Tab 3";
+			sourceTree = "<group>";
+		};
+		E0AFBCFE26F09DEC005E5785 /* Bars VC */ = {
+			isa = PBXGroup;
+			children = (
+				E0AFBCE326EF5750005E5785 /* TabBarViewController.swift */,
+				E0AFBCF126EF5D7E005E5785 /* NavigationController.swift */,
+				E0AFBCF326EF5FB7005E5785 /* NavigationControllerSecond.swift */,
+				E0AFBD0326F3A7F3005E5785 /* NavigationControllerThird.swift */,
+			);
+			path = "Bars VC";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0AFBCAF26EF4A79005E5785 /* RocketSpaceX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0AFBCDA26EF4A7B005E5785 /* Build configuration list for PBXNativeTarget "RocketSpaceX" */;
+			buildPhases = (
+				E0AFBCAC26EF4A79005E5785 /* Sources */,
+				E0AFBCAD26EF4A79005E5785 /* Frameworks */,
+				E0AFBCAE26EF4A79005E5785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RocketSpaceX;
+			productName = "rs-ios-stage-task11";
+			productReference = E0AFBCB026EF4A79005E5785 /* RocketSpaceX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0AFBCC526EF4A7B005E5785 /* RocketSpaceXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0AFBCDD26EF4A7B005E5785 /* Build configuration list for PBXNativeTarget "RocketSpaceXTests" */;
+			buildPhases = (
+				E0AFBCC226EF4A7B005E5785 /* Sources */,
+				E0AFBCC326EF4A7B005E5785 /* Frameworks */,
+				E0AFBCC426EF4A7B005E5785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0AFBCC826EF4A7B005E5785 /* PBXTargetDependency */,
+			);
+			name = RocketSpaceXTests;
+			productName = "rs-ios-stage-task11Tests";
+			productReference = E0AFBCC626EF4A7B005E5785 /* RocketSpaceXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0AFBCD026EF4A7B005E5785 /* RocketSpaceXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0AFBCE026EF4A7B005E5785 /* Build configuration list for PBXNativeTarget "RocketSpaceXUITests" */;
+			buildPhases = (
+				E0AFBCCD26EF4A7B005E5785 /* Sources */,
+				E0AFBCCE26EF4A7B005E5785 /* Frameworks */,
+				E0AFBCCF26EF4A7B005E5785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0AFBCD326EF4A7B005E5785 /* PBXTargetDependency */,
+			);
+			name = RocketSpaceXUITests;
+			productName = "rs-ios-stage-task11UITests";
+			productReference = E0AFBCD126EF4A7B005E5785 /* RocketSpaceXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0AFBCA826EF4A79005E5785 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					E0AFBCAF26EF4A79005E5785 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					E0AFBCC526EF4A7B005E5785 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = E0AFBCAF26EF4A79005E5785;
+					};
+					E0AFBCD026EF4A7B005E5785 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = E0AFBCAF26EF4A79005E5785;
+					};
+				};
+			};
+			buildConfigurationList = E0AFBCAB26EF4A79005E5785 /* Build configuration list for PBXProject "RocketSpaceX" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0AFBCA726EF4A79005E5785;
+			productRefGroup = E0AFBCB126EF4A79005E5785 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0AFBCAF26EF4A79005E5785 /* RocketSpaceX */,
+				E0AFBCC526EF4A7B005E5785 /* RocketSpaceXTests */,
+				E0AFBCD026EF4A7B005E5785 /* RocketSpaceXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0AFBCAE26EF4A79005E5785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0AFBD0026F09F30005E5785 /* Colors.xcassets in Resources */,
+				E0AFBCF926EF7112005E5785 /* Roboto-Medium.ttf in Resources */,
+				E0AFBCF826EF7112005E5785 /* Roboto-Bold.ttf in Resources */,
+				E0AFBCE826EF5BC3005E5785 /* RocketsViewController.xib in Resources */,
+				E0AFBCEC26EF5C34005E5785 /* LaunchesViewController.xib in Resources */,
+				E0AFBCC026EF4A7B005E5785 /* LaunchScreen.storyboard in Resources */,
+				E0AFBCF026EF5C55005E5785 /* LaunchpadsViewController.xib in Resources */,
+				E0AFBCBD26EF4A7B005E5785 /* Assets.xcassets in Resources */,
+				E0AFBD0626F4A402005E5785 /* SF-Pro-Display-Regular.otf in Resources */,
+				E0AFBD0826F4A41B005E5785 /* SF-Pro-Display-Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0AFBCC426EF4A7B005E5785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0AFBCCF26EF4A7B005E5785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0AFBCAC26EF4A79005E5785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0AFBCE426EF5750005E5785 /* TabBarViewController.swift in Sources */,
+				E05A4B482723FB2C001E1061 /* WebViewLaunchesVC.swift in Sources */,
+				E0AFBCF226EF5D7E005E5785 /* NavigationController.swift in Sources */,
+				E05A4B422722A0B1001E1061 /* LaunchesCell.swift in Sources */,
+				E0AFBD0C26FA4D34005E5785 /* CollectionViewCell.swift in Sources */,
+				E0AFBCEF26EF5C55005E5785 /* LaunchpadsViewController.swift in Sources */,
+				E0AFBCF426EF5FB7005E5785 /* NavigationControllerSecond.swift in Sources */,
+				E0AFBCEB26EF5C34005E5785 /* LaunchesViewController.swift in Sources */,
+				E0AFBD0426F3A7F3005E5785 /* NavigationControllerThird.swift in Sources */,
+				E0AFBCE726EF5BC3005E5785 /* RocketsViewController.swift in Sources */,
+				E05A4B4627233C04001E1061 /* LaunchesDetailVC.swift in Sources */,
+				E05A4B4427233BE7001E1061 /* LaunchesDetailCell.swift in Sources */,
+				E0AFBD0226F0B326005E5785 /* RocketsCell.swift in Sources */,
+				E0AFBD0A26F8AE24005E5785 /* RocketDetailsVC.swift in Sources */,
+				E0AFBD0E26FA5A95005E5785 /* File.swift in Sources */,
+				E0AFBD1026FA6433005E5785 /* WebViewController.swift in Sources */,
+				E0AFBCB426EF4A79005E5785 /* AppDelegate.swift in Sources */,
+				E0AFBCB626EF4A79005E5785 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0AFBCC226EF4A7B005E5785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0AFBCCB26EF4A7B005E5785 /* rs_ios_stage_task11Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0AFBCCD26EF4A7B005E5785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0AFBCD626EF4A7B005E5785 /* rs_ios_stage_task11UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0AFBCC826EF4A7B005E5785 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0AFBCAF26EF4A79005E5785 /* RocketSpaceX */;
+			targetProxy = E0AFBCC726EF4A7B005E5785 /* PBXContainerItemProxy */;
+		};
+		E0AFBCD326EF4A7B005E5785 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0AFBCAF26EF4A79005E5785 /* RocketSpaceX */;
+			targetProxy = E0AFBCD226EF4A7B005E5785 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E0AFBCBE26EF4A7B005E5785 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0AFBCBF26EF4A7B005E5785 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0AFBCD826EF4A7B005E5785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E0AFBCD926EF4A7B005E5785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0AFBCDB26EF4A7B005E5785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LUXU8Q5LJD;
+				INFOPLIST_FILE = RocketSpaceX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = albert.RocketSpaceX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0AFBCDC26EF4A7B005E5785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LUXU8Q5LJD;
+				INFOPLIST_FILE = RocketSpaceX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = albert.RocketSpaceX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E0AFBCDE26EF4A7B005E5785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LUXU8Q5LJD;
+				INFOPLIST_FILE = RocketSpaceXTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = albert.RocketSpaceXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RocketSpaceX.app/RocketSpaceX";
+			};
+			name = Debug;
+		};
+		E0AFBCDF26EF4A7B005E5785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LUXU8Q5LJD;
+				INFOPLIST_FILE = RocketSpaceXTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = albert.RocketSpaceXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RocketSpaceX.app/RocketSpaceX";
+			};
+			name = Release;
+		};
+		E0AFBCE126EF4A7B005E5785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LUXU8Q5LJD;
+				INFOPLIST_FILE = RocketSpaceXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = albert.RocketSpaceXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RocketSpaceX;
+			};
+			name = Debug;
+		};
+		E0AFBCE226EF4A7B005E5785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LUXU8Q5LJD;
+				INFOPLIST_FILE = RocketSpaceXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = albert.RocketSpaceXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RocketSpaceX;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0AFBCAB26EF4A79005E5785 /* Build configuration list for PBXProject "RocketSpaceX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0AFBCD826EF4A7B005E5785 /* Debug */,
+				E0AFBCD926EF4A7B005E5785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0AFBCDA26EF4A7B005E5785 /* Build configuration list for PBXNativeTarget "RocketSpaceX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0AFBCDB26EF4A7B005E5785 /* Debug */,
+				E0AFBCDC26EF4A7B005E5785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0AFBCDD26EF4A7B005E5785 /* Build configuration list for PBXNativeTarget "RocketSpaceXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0AFBCDE26EF4A7B005E5785 /* Debug */,
+				E0AFBCDF26EF4A7B005E5785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0AFBCE026EF4A7B005E5785 /* Build configuration list for PBXNativeTarget "RocketSpaceXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0AFBCE126EF4A7B005E5785 /* Debug */,
+				E0AFBCE226EF4A7B005E5785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0AFBCA826EF4A79005E5785 /* Project object */;
+}
